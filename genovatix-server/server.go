@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
 
+	"github.com/genovatix/genovatix-go-pkg/go-libp2p/core/crypto"
 	"github.com/genovatix/genovatix-go-pkg/kyberkem"
 	"github.com/libp2p/go-libp2p"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/p2p/discovery/mdns"
