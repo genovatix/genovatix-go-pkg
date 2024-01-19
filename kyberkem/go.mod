@@ -121,4 +121,3 @@ require (
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
 
-replace github.com/libp2p/go-libp2p v0.32.2 => ../../local/go-libp2p
