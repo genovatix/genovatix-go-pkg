@@ -7,6 +7,7 @@ require (
 	github.com/libp2p/go-libp2p v0.32.2
 	github.com/libp2p/go-libp2p-pubsub v0.10.0
 	github.com/multiformats/go-multiaddr v0.12.1
+	github.com/genovatix/genovatix-go-pkg/kyberkem v0.0.0
 )
 
 require (
