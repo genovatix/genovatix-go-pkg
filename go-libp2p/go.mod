@@ -1,4 +1,4 @@
-module github.com/genovatix/genovatix-go-pkg/go-lib-p2p
+module github.com/genovatix/genovatix-go-pkg/go-libp2p
 
 go 1.21
 
