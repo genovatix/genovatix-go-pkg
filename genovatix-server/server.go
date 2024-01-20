@@ -3,17 +3,16 @@ package genovatix_server
 import (
 	"bufio"
 	"context"
-	"crypto/rand"
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
-
-	"github.com/genovatix/genovatix-go-pkg/go-libp2p/core/crypto"
+	"github.com/genovatix/genovatix-go-pkg/go-libp2p"
+	"github.com/genovatix/genovatix-go-pkg/go-libp2p/core/host"
+	_ "github.com/genovatix/genovatix-go-pkg/go-libp2p/core/peer"
+	"github.com/genovatix/genovatix-go-pkg/go-libp2p/p2p/discovery/mdns"
 	"github.com/genovatix/genovatix-go-pkg/kyberkem"
-	"github.com/libp2p/go-libp2p"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/libp2p/go-libp2p/core/host"
+	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/p2p/discovery/mdns"
 	"github.com/multiformats/go-multiaddr"
 	"log"
 	"os"
@@ -24,7 +23,7 @@ func StartDHTServer() {
 	kyberkem.InitBooter()
 	spew.Dump(kyberkem.Configuration)
 	ctx := context.Background()
-	kyberPrivKey, _, err := crypto.GenerateKyberKey(rand.Reader)
+	kyberPrivKey, _, err := crypto.GenerateKeyPair(4, 2048)
 
 	if err != nil {
 		log.Fatalf("Failed to generate Kyber private key: %s", err)

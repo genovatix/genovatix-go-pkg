@@ -63,6 +63,8 @@ github.com/frankban/quicktest v1.14.4/go.mod h1:4ptaffx2x8+WTWXmUCuVU6aPUX1/Mz7z
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
 github.com/genovatix/genovatix-go-pkg/genovatix-server v0.0.0-20240119214413-dc1d2712572a h1:fYEnwvTR3WCfXiAZIpFtFfUQtQN6DAxXbXEvczvQjpE=
 github.com/genovatix/genovatix-go-pkg/genovatix-server v0.0.0-20240119214413-dc1d2712572a/go.mod h1:bitbxEFco7mNFlnSc10q+Zkw/D2n//RmrufzXHe7HY4=
+github.com/genovatix/genovatix-go-pkg/go-libp2p v0.0.0-20240119223716-001d249c3b7c h1:nexPlwvm1FnX1qp5QWGqRI3ebEzA5JBKICrbtypaH5Y=
+github.com/genovatix/genovatix-go-pkg/go-libp2p v0.0.0-20240119223716-001d249c3b7c/go.mod h1:VpFfzD5EhnL7Lc32iOMiDPBynSc+l/nupc2e75gFjI0=
 github.com/genovatix/genovatix-go-pkg/kyberkem v0.0.0-20240119221424-362c69bc0ff3 h1:vfKEKM7R2qWCdy9ucrxISEC1CJRq/iif8b9Rokw+gys=
 github.com/genovatix/genovatix-go-pkg/kyberkem v0.0.0-20240119221424-362c69bc0ff3/go.mod h1:2Kf3eRmc2WGYUn4xT3uk+JexxKoD2HTNXhk2rhsVBWc=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=

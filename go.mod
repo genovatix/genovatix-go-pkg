@@ -4,6 +4,7 @@ go 1.21.3
 
 require (
 	github.com/genovatix/genovatix-go-pkg/genovatix-server v0.0.0-20240119214413-dc1d2712572a
+	github.com/genovatix/genovatix-go-pkg/go-libp2p v0.0.0-20240119223716-001d249c3b7c
 	github.com/genovatix/genovatix-go-pkg/kyberkem v0.0.0-20240119221424-362c69bc0ff3
 
 )
